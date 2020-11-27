@@ -77,15 +77,20 @@ https://developer.nvidia.com/rdp/cudnn-archive
 
 - Go to the CUDA folder on your computer which looks like:
 
-```C: / Program Files / NVIDIA GPU Computing Toolkit / CUDA / v 10.1```
+                                   ```C: / Program Files / NVIDIA GPU Computing Toolkit / CUDA / v 10.1```
+
+- And now paste the contents of each CUDNN folder separately into the corresponding folder (with the same name) in the CUDA folder. Also accept all comments and notifications.
+
+       ``` Bin in CUDNN into Bin in CUDA and include of CUDNN in include in CUDA and lib/x64 of CUDNN into lib/x64 of CUDA```
 
 
+## Step 4: Give your CUDA addresses:
 
+- Now press the start key on your keyboard and search for ```edit the system environment variables``` in search box of start menu then hit enter. 
 
+- As shown in the windows below, select go to ```system variables``` then select the ```edit``` item.
 
-
-
-
+![](https://github.com/Mahdidrm/GPU/blob/main/3.png)
 
 
 
