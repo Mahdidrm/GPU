@@ -94,18 +94,36 @@ https://developer.nvidia.com/rdp/cudnn-archive
 
 - In this window, click on ```new``` and add the address of two CUDA ```bin``` and ```libvvn``` folders installed on your computer such as:
 
-                             ``` C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v 10.1/bin ```
+                             ```C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v 10.1/bin
 
-                             ``` C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v 10.1/ libnvvp ```
+                                C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v 10.1/ libnvvp```
                              
 
 ![](https://github.com/Mahdidrm/GPU/blob/main/4.png?raw=true)
 
+- And now, click Ok Ok OK... 
 
+## Step 5: Create an environment for the GPU in Anaconda
 
+- Open the Anaconda prompt and type this command:
 
+                               ```conda create -n tensorflow_gpuenv python=3.6 tensorflow-gpu
 
+                                  conda activate tensorflow_gpuenv```
+                                  
+- Now wait a few minutes to anaconda download and install the necessary packages. Then you will see your environment and the necessary packages.
 
+- Very important: you have to install ```keras-gpu``` on! the conda code is:
+
+                               ```conda install -c anaconda keras-gpu```
+
+![](https://github.com/Mahdidrm/GPU/blob/main/5.png?raw=true)
+
+- Also you can install Spyder and Jupyter with these codes:
+
+                                ```conda install -c anaconda spyder
+                                   conda install -c anaconda jupyter```
+                
 
 
 
