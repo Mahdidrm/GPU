@@ -14,11 +14,19 @@ In the following steps which were tested on a Dell laptop with the configuration
 GPU: Nvidia Geforce RTX 2060 with 6GB memory 
 CPU: Core i7  with 12MB cache 
 RAM: 16GB DDR4 
+OS: Windows10
 
 ```
 
 Steps
 -
+
+1- Install Anaconda:
+As we know, Anaconda has very good abilities to create and manage the environments and most coding platforms like Spyder, Jupyter and ... Also it has very fast terminals on each environment for installing modules with Conda keyword. It must therefore be installed!
+
+You can download it using this link:
+
+https://www.anaconda.com/products/individual
 
 
 - 
