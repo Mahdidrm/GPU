@@ -21,7 +21,7 @@ OS: Windows10
 Steps
 -
 
-# Step1: Install Anaconda:
+- Step1: Install Anaconda:
 
 As we know, Anaconda has very good abilities to create and manage the environments and most coding platforms like Spyder, Jupyter and ... Also it has very fast terminals on each environment for installing modules with Conda keyword. It must therefore be installed!
 
@@ -29,5 +29,8 @@ You can download it using this link:
 
 https://www.anaconda.com/products/individual
 
+- Step2: Check your graphics card! 
+
+Your computer's graphics processor must also support Tensorflow, to do this, find your graphics card model in `` CUDA-Enabled GeForce and TITAN Products``. If the point mentioned on your graphics card is more than 3.5, it means it supports TF.
 
 - 
