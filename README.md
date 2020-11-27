@@ -94,9 +94,9 @@ https://developer.nvidia.com/rdp/cudnn-archive
 
 - In this window, click on ```new``` and add the address of two CUDA ```bin``` and ```libvvn``` folders installed on your computer such as:
 
-                             ``` C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v 10.1/bin
+                             ``` C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v 10.1/bin ```
 
-                             ``` C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v 10.1/ libnvvp
+                             ``` C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v 10.1/ libnvvp ```
                              
 
 ![](https://github.com/Mahdidrm/GPU/blob/main/4.png?raw=true)
