@@ -3,7 +3,9 @@
 Are you looking for a quick, convenient, and easy way to use #GPU on your Python often?
 Here is a complete and simple explanatory way to do it!
 
+
 ![](https://github.com/Mahdidrm/GPU/blob/main/1.jpeg?raw=true)
+
 
 Introduction
 -
@@ -21,7 +23,7 @@ OS: Windows10
 Steps
 -
 
-- Step1: Install Anaconda:
+- Step 0.1: Install Anaconda:
 
 As we know, Anaconda has very good abilities to create and manage the environments and most coding platforms like Spyder, Jupyter and ... Also it has very fast terminals on each environment for installing modules with Conda keyword. It must therefore be installed!
 
@@ -29,8 +31,26 @@ You can download it using this link:
 
 https://www.anaconda.com/products/individual
 
-- Step2: Check your graphics card! 
+- Step 0.2: Check your graphics card! 
 
 Your computer's graphics processor must also support Tensorflow, to do this, find your graphics card model in `` CUDA-Enabled GeForce and TITAN Products``. If the point mentioned on your graphics card is more than 3.5, it means it supports TF.
+
+- Step 0.3: Update your graphics card.
+It is necessary to go to your laptop company's website and update your graphics card.
+
+
+- Step 1: Install Microsoft Visual Studio version 2019:
+
+As a first step, download the version of the Microsoft Visual Studio community from this link:
+https://visualstudio.microsoft.com/vs/community/
+
+only after auto-extracting donloaded file, as it is shown in the window below, don't select anything and just click the install button.
+
+
+![](https://github.com/Mahdidrm/GPU/blob/main/2.png?raw=true)
+
+
+
+
 
 - 
