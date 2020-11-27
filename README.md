@@ -22,6 +22,7 @@ Steps
 -
 
 - Step1: Install Anaconda:
+
 As we know, Anaconda has very good abilities to create and manage the environments and most coding platforms like Spyder, Jupyter and ... Also it has very fast terminals on each environment for installing modules with Conda keyword. It must therefore be installed!
 
 You can download it using this link:
