@@ -23,7 +23,7 @@ OS: Windows10
 Steps
 -
 
-- Step 0.1: Install Anaconda:
+## Step 0.1: Install Anaconda:
 
 As we know, Anaconda has very good abilities to create and manage the environments and most coding platforms like Spyder, Jupyter and ... Also it has very fast terminals on each environment for installing modules with Conda keyword. It must therefore be installed!
 
@@ -31,15 +31,15 @@ You can download it using this link:
 
 https://www.anaconda.com/products/individual
 
-- Step 0.2: Check your graphics card! 
+## Step 0.2: Check your graphics card! 
 
 Your computer's graphics processor must also support Tensorflow, to do this, find your graphics card model in `` CUDA-Enabled GeForce and TITAN Products``. If the point mentioned on your graphics card is more than 3.5, it means it supports TF.
 
-- Step 0.3: Update your graphics card.
+## Step 0.3: Update your graphics card.
 It is necessary to go to your laptop company's website and update your graphics card.
 
 
-- Step 1: Install Microsoft Visual Studio version 2019:
+## Step 1: Install Microsoft Visual Studio version 2019:
 
 As a first step, download the version of the Microsoft Visual Studio community from this link:
 
@@ -51,8 +51,7 @@ After downloading the file, double click on it and the window below will appear,
 
 If you already have Microsoft Visual Studio, skip this step.
 
--
-- Step 2: Install the CUDA Toolkit
+## Step 2: Install the CUDA Toolkit
 
 To download the latest version of Cuda, click here:
 
@@ -63,7 +62,37 @@ But it is recommended to install Cuda version 10.2 because we have tested it and
 ## Very important points!
 
 1- When you want to install Cuda, go to the custom part and uncheck all the options except CUDA
+
 2- If you install CUDA 10.2 and have trouble in detecting your GPU, you can downgrade CUDA to version 9. If you do this, don't forget the version 9 paths to install!
+
+## Step 3: Install CUDNN version 7.2 and above:
+
+Depending on your CUDA version, download the CUDNN from the list on the link below:
+
+https://developer.nvidia.com/rdp/cudnn-archive
+
+- You must have / create an account on the Nvidia website to have access to the download.
+
+- After downloading cudnn, extract the zip file and open the folder to see 3 folders with the names lib, include and bin.
+
+- Go to the CUDA folder on your computer which looks like:
+
+```C: / Program Files / NVIDIA GPU Computing Toolkit / CUDA / v 10.1```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
