@@ -65,7 +65,7 @@ But it is recommended to install Cuda version 10.2 because we have tested it and
 
 2- If you install CUDA 10.2 and have trouble in detecting your GPU, you can downgrade CUDA to version 9. If you do this, don't forget the version 9 paths to install!
 
-## Step 3: Install CUDNN version 7.2 and above:
+## Step 3: Install CUDNN version 7.2 or above:
 
 Depending on your CUDA version, download the CUDNN from the list on the link below:
 
@@ -88,9 +88,42 @@ https://developer.nvidia.com/rdp/cudnn-archive
 
 - Now press the start key on your keyboard and search for ```edit the system environment variables``` in search box of start menu then hit enter. 
 
-- As shown in the windows below, select go to ```system variables``` then select the ```edit``` item.
+- As shown in the windows below, select go to ```enviroments variables``` then select the ```edit``` item.
 
 ![](https://github.com/Mahdidrm/GPU/blob/main/3.png)
+
+- In this window, click on ```new``` and add the address of two CUDA ```bin``` and ```libvvn``` folders installed on your computer such as:
+
+                             ```
+                               C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v 10.1/bin
+
+                               C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v 10.1/ libnvvp
+                             ```
+
+![](https://github.com/Mahdidrm/GPU/blob/main/4.png?raw=true)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
