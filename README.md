@@ -25,15 +25,15 @@ Steps
 
 ## Step 0.1: Install Anaconda:
 
-As we know, Anaconda has very good abilities to create and manage the environments and most coding platforms like Spyder, Jupyter and ... Also it has very fast terminals on each environment for installing modules with Conda keyword. It must therefore be installed!
+- As we know, Anaconda has very good abilities to create and manage the environments and most coding platforms like Spyder, Jupyter and ... Also it has very fast terminals on each environment for installing modules with Conda keyword. It must therefore be installed!
 
-You can download it using this link:
+- You can download it using this link:
 
 https://www.anaconda.com/products/individual
 
 ## Step 0.2: Check your graphics card! 
 
-Your computer's graphics processor must also support Tensorflow, to do this, find your graphics card model in `` CUDA-Enabled GeForce and TITAN Products``. If the point mentioned on your graphics card is more than 3.5, it means it supports TF.
+- Your computer's graphics processor must also support Tensorflow, to do this, find your graphics card model in `` CUDA-Enabled GeForce and TITAN Products``. If the point mentioned on your graphics card is more than 3.5, it means it supports TF.
 
 ## Step 0.3: Update your graphics card.
 It is necessary to go to your laptop company's website and update your graphics card.
@@ -41,23 +41,23 @@ It is necessary to go to your laptop company's website and update your graphics 
 
 ## Step 1: Install Microsoft Visual Studio version 2019:
 
-As a first step, download the version of the Microsoft Visual Studio community from this link:
+- As a first step, download the version of the Microsoft Visual Studio community from this link:
 
 https://visualstudio.microsoft.com/vs/community/
 
-After downloading the file, double click on it and the window below will appear, there is no need to select anything, so just click the install button:
+- After downloading the file, double click on it and the window below will appear, there is no need to select anything, so just click the install button:
 
 ![](https://github.com/Mahdidrm/GPU/blob/main/2.png?raw=true)
 
-If you already have Microsoft Visual Studio, skip this step.
+- If you already have Microsoft Visual Studio, skip this step.
 
 ## Step 2: Install the CUDA Toolkit
 
-To download the latest version of Cuda, click here:
+- To download the latest version of Cuda, click here:
 
 https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exelocal
 
-But it is recommended to install Cuda version 10.2 because we have tested it and it works great.
+- But it is recommended to install Cuda version 10.2 because we have tested it and it works great.
 
 ## Very important points!
 
@@ -82,7 +82,7 @@ https://developer.nvidia.com/rdp/cudnn-archive
 ```
 - And now paste the contents of each CUDNN folder separately into the corresponding folder (with the same name) in the CUDA folder. Also accept all comments and notifications.
 
-       ``` Bin in CUDNN into Bin in CUDA and include of CUDNN in include in CUDA and lib/x64 of CUDNN into lib/x64 of CUDA```
+```                          Bin in CUDNN into Bin in CUDA and include of CUDNN in include in CUDA and lib/x64 of CUDNN into lib/x64 of CUDA                            ```
 
 
 ## Step 4: Give your CUDA addresses:
@@ -141,21 +141,8 @@ Enjoy of your ## GPU
 
 Reference
 -
-Special thanks to Amir Hossein Mesbah
+
+Special thanks to Amir Hossein Mesbah:
+
 https://virgool.io/@amir_msbh/%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C-jupyter-notebook-%D8%A8%D8%B1-%D8%B1%D9%88%DB%8C-gpu-tkweik8tvgid
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-- 
