@@ -63,7 +63,7 @@ https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64
 
 1- When you want to install Cuda, go to the custom part and uncheck all the options except CUDA
 
-2- If you install CUDA 10.2 and have trouble in detecting your GPU, you can downgrade CUDA to version 9. If you do this, don't forget the version 9 paths to install!
+2- If you install CUDA 10.2 and have trouble in detecting your GPU, you can downgrade CUDA to version 9. If you do this, don't forget the version 9 patches to install!
 
 ## Step 3: Install CUDNN version 7.2 or above:
 
