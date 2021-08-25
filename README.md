@@ -136,8 +136,19 @@ Enjoy of your ## GPU
 ![](https://github.com/Mahdidrm/GPU/blob/main/7.png?raw=true)
 
 
+************************** Update 26/08/2021 ********************
+1- If you are using tensorflow-gpu V2, there is no need to install Keras! 
+2- Open your anaconda terminal and create an environment using this code: 
+conda create -n tf-gpu tensorflow-gpu
+3- Install  jupyter notebook on your new environment(meaning tf-gpu) and run this code to check the GPU:
 
+'''
+import tensorflow as tf
+print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
+'''
+If result is more than 0, your GPU is working! 
 
+******************************************************************
 Reference
 -
 
