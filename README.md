@@ -1,5 +1,5 @@
 # Installing GPU for Python on Windows 10 
-- (the update part is at the end of this page)
+- (This page is updating at the end)
 
 Are you looking for a quick, convenient, and easy way to use #GPU on your Python often?
 Here is a complete and simple explanatory way to do it!
@@ -137,7 +137,7 @@ Enjoy of your ## GPU
 ![](https://github.com/Mahdidrm/GPU/blob/main/7.png?raw=true)
 
 
-************************** Update 26/08/2021 ********************
+# Updates -------------------------------------------------26/08/2021
 1- If you are using tensorflow-gpu V2, there is no need to install Keras! 
 2- Open your anaconda terminal and create an environment using this code: 
 
